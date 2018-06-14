@@ -1,7 +1,7 @@
 {
 	"name": "CleanFareSharedModules",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "build/index.js",
 	"repository": "https://github.com/Sam3077/CFSharedModules.git",
 	"author": "Sam Hirsch",
 	"license": "MIT",
@@ -19,7 +19,7 @@
 		"babel-preset-stage-0": "^6.24.1"
 	},
 	"scripts": {
-		"build": "babel src -d build --copy",
+		"build": "babel src -d build --copy-files",
 		"prepare": "yarn run build"
 	}
 }
