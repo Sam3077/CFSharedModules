@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import TwoColumns from './TwoColumns';
+import TwoColumns from './twoColumns';
 import Google from './images/googleDownload.png';
 import AppStore from './images/appStore.svg';
 

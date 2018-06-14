@@ -20,7 +20,6 @@
 	},
 	"scripts": {
 		"build": "babel src -d build --copy-files",
-		"prepare": "yarn run build",
-		"postinstall": "babel src -d build --copy-files"
+		"prepare": "yarn run build"
 	}
 }
