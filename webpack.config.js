@@ -1,20 +1,22 @@
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const port = process.env.PORT || 3000;
+
 module.exports = {
 	entry: './src/index.js',
 	output: {
-		path: __dirname + '/public',
-		filename: '/bundle.js'
+		filename: 'bundle.[hash].js'
+	},
+	resolve: {
+		extensions: ['', '.js', '.jsx']
 	},
 	module: {
-		loader: [
+		rules: [
 			{
-				test: /\.jsx?$/,
+				test: /\.jsx$/,
 				exclude: /node_modules/,
-				loader: 'babel',
-				query: {
-					presets: ['es2015', 'react']
-				}
+				loader: 'babel'
 			}
 		]
-	},
-	watch: true
+	}
 };
