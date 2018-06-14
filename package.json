@@ -1,0 +1,9 @@
+{
+  "name": "CleanFareSharedModules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Sam3077/CFSharedModules.git",
+  "author": "Sam Hirsch",
+  "license": "MIT",
+  "private": true
+}
