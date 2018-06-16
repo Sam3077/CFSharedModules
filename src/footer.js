@@ -90,38 +90,38 @@ class Footer extends React.Component {
 				<ColumnsWrapper>
 					<Column>
 						<h3>Page Navigation</h3>
-						<Link to="/" style={{ textDecoration: 'none' }}>
+						<a href="/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Home</LinkStyle>
-						</Link>
-						<Link to="/businesses/" style={{ textDecoration: 'none' }}>
+						</a>
+						<a href="/businesses/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Businesses</LinkStyle>
-						</Link>
-						<Link to="/competitions/" style={{ textDecoration: 'none' }}>
+						</a>
+						<a href="/competitions/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Competitions</LinkStyle>
-						</Link>
-						<Link to="/contact/" style={{ textDecoration: 'none' }}>
+						</a>
+						<a href="/contact/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Contact</LinkStyle>
-						</Link>
+						</a>
 					</Column>
 					<Column>
 						<h3>Business</h3>
-						<Link to="/vendor-partnerships/" style={{ textDecoration: 'none' }}>
+						<a href="/vendor-partnerships/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Vendor Partnerships</LinkStyle>
-						</Link>
-						<Link
-							to="/corporate-subscription/"
+						</a>
+						<a
+							href="/corporate-subscription/"
 							style={{ textDecoration: 'none' }}>
 							<LinkStyle>Host A Competition</LinkStyle>
-						</Link>
+						</a>
 					</Column>
 					<Column>
 						<h3>Admin</h3>
-						<Link to="/vendor-console/" style={{ textDecoration: 'none' }}>
+						<a href="/vendor-console/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Vendor Console</LinkStyle>
-						</Link>
-						<Link to="/competition-console/" style={{ textDecoration: 'none' }}>
+						</a>
+						<a href="/competition-console/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Competition Console</LinkStyle>
-						</Link>
+						</a>
 					</Column>
 					{this.state.width > 800 ? (
 						<Column>

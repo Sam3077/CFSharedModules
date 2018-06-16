@@ -1,2 +1,2 @@
-export { Footer } from './footer';
-export { NavBar } from './navBar';
+export { default as Footer } from './footer.js';
+export { default as NavBar } from './navBar.js';
