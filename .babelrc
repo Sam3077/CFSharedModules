@@ -2,11 +2,21 @@
 	"presets": [
 		[
 			"env",
-		{
-			"modules": false
-		}
+			{
+				"modules": false
+			}
 		],
 		"react",
-		"stage-0"
+		"stage-0",
+		"next/babel"
+	],
+	"plugins": [
+		[
+			"transform-assets-import-to-string",
+			{
+				"baseDir": "static",
+				"baseUri": "/"
+			}
 		]
+	]
 }

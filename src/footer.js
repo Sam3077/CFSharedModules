@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import TwoColumns from './twoColumns';
-import Google from './images/googleDownload.png';
-import AppStore from './images/appStore.svg';
+import Google from '../static/googleDownload.png';
+import AppStore from '../static/appStore.svg';
 
 const SuperContainer = styled.div`
 	position: relative;
