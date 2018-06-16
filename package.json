@@ -7,8 +7,6 @@
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
-		"babel-core": "^6.26.3",
-		"babel-plugin-transform-assets-import-to-string": "^1.2.0",
 		"prop-types": "^15.6.1",
 		"react": "^16.4.1",
 		"react-dom": "^16.4.1",
@@ -16,13 +14,14 @@
 	},
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
-		"babel-loader": "^7.1.4",
+		"babel-core": "^6.26.3",
+		"babel-plugin-transform-assets-import-to-string": "^1.2.0",
 		"babel-preset-env": "^1.7.0",
 		"babel-preset-react": "^6.24.1",
 		"babel-preset-stage-0": "^6.24.1"
 	},
 	"scripts": {
-		"build": "babel src -d build --copy-files",
+		"build": "babel src -d build",
 		"prepare": "yarn run build"
 	}
 }
