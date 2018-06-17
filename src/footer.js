@@ -8,6 +8,7 @@ const SuperContainer = styled.div`
 	position: relative;
 	bottom: 0;
 	width: 100vw;
+	font: 112.5%/1.45em georgia, serif;
 `;
 const ColumnsWrapper = styled.div`
 	width: 100vw;
@@ -38,6 +39,16 @@ const CenterColumn = Column.extend`
 `;
 const StoreImage = styled.img`
 	width: 250px;
+`;
+const H3 = styled.h3`
+	margin-bottom: 1.45rem;
+	color: inherit;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+	font-size: 1.38316rem;
+	line-height: 1.1;
 `;
 
 class Footer extends React.Component {
@@ -89,7 +100,7 @@ class Footer extends React.Component {
 			<SuperContainer>
 				<ColumnsWrapper>
 					<Column>
-						<h3>Page Navigation</h3>
+						<H3>Page Navigation</H3>
 						<a href="/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Home</LinkStyle>
 						</a>
@@ -104,7 +115,7 @@ class Footer extends React.Component {
 						</a>
 					</Column>
 					<Column>
-						<h3>Business</h3>
+						<H3>Business</H3>
 						<a href="/vendor-partnerships/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Vendor Partnerships</LinkStyle>
 						</a>
@@ -115,7 +126,7 @@ class Footer extends React.Component {
 						</a>
 					</Column>
 					<Column>
-						<h3>Admin</h3>
+						<H3>Admin</H3>
 						<a href="/vendor-console/" style={{ textDecoration: 'none' }}>
 							<LinkStyle>Vendor Console</LinkStyle>
 						</a>
