@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import icon from '../static/noshadow_180pxCompressed.png';
-import facebook from '../static/facebook.png';
-import instagram from '../static/instagram.png';
+import icon from './static/noshadow_180pxCompressed.png';
+import facebook from './static/facebook.png';
+import instagram from './static/instagram.png';
 
 const SuperContainer = styled.div`
 	width: 100%;
