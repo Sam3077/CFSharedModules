@@ -14,7 +14,7 @@
 		[
 			"transform-assets-import-to-string",
 			{
-				"baseDir": "./src/static",
+				"baseDir": "src/static",
 				"baseUri": "/"
 			}
 		]
