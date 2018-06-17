@@ -12,10 +12,10 @@
 	],
 	"plugins": [
 		[
-			"transform-assets-import-to-string",
+			"transform-assets",
 			{
-				"baseDir": "src/static",
-				"baseUri": "/"
+				"extensions": ["svg", "png", "jpg"],
+				"name": "[name].[ext]?[sha512:hash:base64:7]"
 			}
 		]
 	]
