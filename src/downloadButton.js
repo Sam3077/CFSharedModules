@@ -29,6 +29,11 @@ const ButtonText = styled.h2`
 	margin-bottom: 1vh;
 	font-size: 4vh;
 	user-select: none;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+	line-height: 1.1;
 `;
 const TriangleUp = styled.div`
 	width: 0;
@@ -69,6 +74,11 @@ const StoreLink = styled.a`
 const LinkText = styled.h3`
 	margin-top: 10px;
 	font-size: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+	line-height: 1.1;
 `;
 const Wrapper = styled.div`
 	display: flex;
