@@ -26,6 +26,14 @@ const LinkStyle = styled.p`
 	color: rgb(200, 200, 200);
 	text-decoration: none;
 	transition: color 0.5s ease;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	margin-bottom: 0;
 	&:hover {
 		color: white;
 	}
@@ -42,6 +50,7 @@ const StoreImage = styled.img`
 `;
 const H3 = styled.h3`
 	margin-bottom: 1.45rem;
+	margin-top: 0;
 	color: inherit;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -49,6 +58,10 @@ const H3 = styled.h3`
 	text-rendering: optimizeLegibility;
 	font-size: 1.38316rem;
 	line-height: 1.1;
+`;
+
+const P = styled.p`
+	margin-bottom: 0;
 `;
 
 class Footer extends React.Component {
@@ -171,9 +184,9 @@ class Footer extends React.Component {
 				)}
 				<CenterWrapper>
 					<CenterColumn>
-						<p>
+						<P>
 							Copyright © {d.getFullYear()} CleanFare LLC. All Rights Reserved.
-						</p>
+						</P>
 						<a
 							href="https://www.iubenda.com/privacy-policy/8006320"
 							target="_blank"
