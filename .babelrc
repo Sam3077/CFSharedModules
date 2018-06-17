@@ -9,14 +9,5 @@
 		"react",
 		"stage-0",
 		"es2015"
-	],
-	"plugins": [
-		[
-			"transform-assets",
-			{
-				"extensions": ["svg", "png", "jpg"],
-				"name": "[name].[ext]?[sha512:hash:base64:7]"
-			}
-		]
 	]
 }
