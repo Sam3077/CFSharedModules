@@ -9,5 +9,14 @@
 		"react",
 		"stage-0",
 		"es2015"
+	],
+	"plugins": [
+		[
+			"transform-assets-import-to-string",
+			{
+				"baseDir": "static",
+				"baseUri": "./"
+			}
+		]
 	]
 }
