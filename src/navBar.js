@@ -18,7 +18,6 @@ const SuperContainer = styled.div`
 	background-color: white;
 	filter: drop-shadow(0px 0px 5px black);
 	overflow: hidden;
-	font: 112.5%/1.45em georgia, serif;
 `;
 const StickyBacker = styled.div`
 	display: flex;
@@ -29,13 +28,14 @@ const Container = styled.div`
 	background: transparent;
 	flex-direction: row;
 	flex: 1;
+	font: 112.5%/1.45em georgia, serif;
 `;
 const OverflowContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	margin-top: 0;
 	align-items: center;
-	justiyf-content: center;
+	justify-content: center;
 `;
 const SocialLogo = styled.img`
 	height: 40px;
