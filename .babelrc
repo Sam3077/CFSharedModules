@@ -12,10 +12,9 @@
 	],
 	"plugins": [
 		[
-			"transform-assets-import-to-string",
+			"inline-import-data-uri",
 			{
-				"baseDir": "static",
-				"baseUri": "./"
+				"extensions": [".png", ".jpg"]
 			}
 		]
 	]
