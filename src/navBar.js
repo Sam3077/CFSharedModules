@@ -41,7 +41,6 @@ const SocialLogo = styled.img`
 	height: 40px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	flex: 0.5;
 	flex-wrap: wrap;
 	position: relative;
 	transition: all 0.3s ease;
@@ -52,7 +51,9 @@ const SocialLogo = styled.img`
 		margin-bottom: 7.5px;
 	}
 `;
-
+const A = styled.a`
+	flex: 0.5;
+`;
 const HomeLink = styled.div`
 	text-decoration: none;
 	display: flex;
@@ -91,7 +92,7 @@ const Clean = styled.h1`
 
 const Fare = Clean.extend`
 	color: black;
-	margin-right: 35px;
+	margin-right: 10px;
 `;
 
 const CleanFareLogo = styled.img`
@@ -103,12 +104,12 @@ class SocialContent extends React.Component {
 	render() {
 		return (
 			<Container>
-				<a href="https://www.facebook.com/CleanFareApp" target="_blank">
+				<A href="https://www.facebook.com/CleanFareApp" target="_blank">
 					<SocialLogo src={facebook} />
-				</a>
-				<a href="https://www.instagram.com/cleanfare" target="_blank">
+				</A>
+				<A href="https://www.instagram.com/cleanfare" target="_blank">
 					<SocialLogo src={instagram} />
-				</a>
+				</A>
 			</Container>
 		);
 	}
