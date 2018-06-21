@@ -30,9 +30,6 @@ const Container = styled.div`
 	flex: 1;
 	font: 112.5%/1.45em georgia, serif;
 `;
-const A = styled.a`
-	flex: 1;
-`;
 const OverflowContainer = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -42,13 +39,14 @@ const OverflowContainer = styled.div`
 `;
 const SocialLogo = styled.img`
 	height: 40px;
-	margin: 10px 20px 10px 20px;
+	margin: 0px 20px 0px 20px;
+	flex: 0.5;
 	position: relative;
 	transition: all 0.3s ease;
 
 	&:hover {
 		height: 45px;
-		margin: 7.5px 17.5px 7.5px 17.5px;
+		margin: 0px 17.5px 0px 17.5px;
 	}
 `;
 
@@ -102,12 +100,12 @@ class SocialContent extends React.Component {
 	render() {
 		return (
 			<Container>
-				<A href="https://www.facebook.com/CleanFareApp" target="_blank">
+				<a href="https://www.facebook.com/CleanFareApp" target="_blank">
 					<SocialLogo src={facebook} />
-				</A>
-				<A href="https://www.instagram.com/cleanfare" target="_blank">
+				</a>
+				<a href="https://www.instagram.com/cleanfare" target="_blank">
 					<SocialLogo src={instagram} />
-				</A>
+				</a>
 			</Container>
 		);
 	}
