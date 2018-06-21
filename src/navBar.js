@@ -39,7 +39,8 @@ const OverflowContainer = styled.div`
 `;
 const SocialLogo = styled.img`
 	height: 40px;
-	margin: 10px 0px 10px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	flex: 0.5;
 	flex-wrap: wrap;
 	position: relative;
@@ -47,7 +48,8 @@ const SocialLogo = styled.img`
 
 	&:hover {
 		height: 45px;
-		margin: 7.5px 0px 7.5px 0px;
+		margin-top: 7.5px;
+		margin-bottom: 7.5px;
 	}
 `;
 
