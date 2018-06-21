@@ -30,6 +30,9 @@ const Container = styled.div`
 	flex: 1;
 	font: 112.5%/1.45em georgia, serif;
 `;
+const A = styled.a`
+	flex: 1;
+`;
 const OverflowContainer = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -99,12 +102,12 @@ class SocialContent extends React.Component {
 	render() {
 		return (
 			<Container>
-				<a href="https://www.facebook.com/CleanFareApp" target="_blank">
+				<A href="https://www.facebook.com/CleanFareApp" target="_blank">
 					<SocialLogo src={facebook} />
-				</a>
-				<a href="https://www.instagram.com/cleanfare" target="_blank">
+				</A>
+				<A href="https://www.instagram.com/cleanfare" target="_blank">
 					<SocialLogo src={instagram} />
-				</a>
+				</A>
 			</Container>
 		);
 	}
