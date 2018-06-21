@@ -27,7 +27,7 @@ const Container = styled.div`
 	display: flex;
 	background: transparent;
 	flex-direction: row;
-	flex: 1;
+	flex: 0.5;
 	font: 112.5%/1.45em georgia, serif;
 `;
 const OverflowContainer = styled.div`
@@ -92,7 +92,7 @@ const Clean = styled.h1`
 
 const Fare = Clean.extend`
 	color: black;
-	margin-right: 10px;
+	margin-right: 35px;
 `;
 
 const CleanFareLogo = styled.img`
