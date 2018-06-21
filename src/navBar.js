@@ -39,14 +39,15 @@ const OverflowContainer = styled.div`
 `;
 const SocialLogo = styled.img`
 	height: 40px;
-	margin: 0px 20px 0px 20px;
+	margin: 10px 0px 10px 0px;
 	flex: 0.5;
+	flex-wrap: wrap;
 	position: relative;
 	transition: all 0.3s ease;
 
 	&:hover {
 		height: 45px;
-		margin: 0px 17.5px 0px 17.5px;
+		margin: 7.5px 0px 7.5px 0px;
 	}
 `;
 
