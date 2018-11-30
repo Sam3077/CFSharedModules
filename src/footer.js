@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Link from "gatsby-link";
 import Google from "./static/googleDownload.png";
-import AppStore from "./static/appStore.svg";
+import AppStore from "./static/appStore.png";
 
 const SuperContainer = styled.div`
   position: relative;
