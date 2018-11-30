@@ -16,7 +16,7 @@ const ColumnsWrapper = styled.div`
   background: black;
   margin-bottom: 0px;
 `;
-const CenterWrapper = ColumnsWrapper.extend`
+const CenterWrapper = styled(ColumnsWrapper)`
   align-items: center;
   justify-content: center;
 `;
@@ -32,7 +32,7 @@ const Column = styled.div`
   flex: 1;
   padding: 10px;
 `;
-const CenterColumn = Column.extend`
+const CenterColumn = styled(Column)`
   text-align: center;
 `;
 const StoreImage = styled.img`
