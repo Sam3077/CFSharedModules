@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Link from "gatsby-link";
 import styled from "styled-components";
 import icon from "./static/noshadow_180pxCompressed.png";
 import facebook from "./static/facebook.png";
@@ -74,7 +73,7 @@ class NavBar extends React.Component {
     return (
       <SuperContainer>
         <StickyBacker>
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <a href="/" style={{ textDecoration: "none" }}>
             <HomeLink>
               <CleanFareLogo src={icon} />
               <div style={{ height: "50px" }}>
@@ -83,25 +82,25 @@ class NavBar extends React.Component {
                 </Clean>
               </div>
             </HomeLink>
-          </Link>
+          </a>
           <A href="https://www.facebook.com/CleanFareApp" target="_blank">
             <SocialLogo src={facebook} />
           </A>
           <A href="https://www.instagram.com/cleanfare" target="_blank">
             <SocialLogo src={instagram} />
           </A>
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <a href="/" style={{ textDecoration: "none" }}>
             <LinkText>Home</LinkText>
-          </Link>
-          <Link to="/businesses/" style={{ textDecoration: "none" }}>
+          </a>
+          <a href="/businesses/" style={{ textDecoration: "none" }}>
             <LinkText>Businesses</LinkText>
-          </Link>
-          <Link to="/competitions/" style={{ textDecoration: "none" }}>
+          </a>
+          <a href="/competitions/" style={{ textDecoration: "none" }}>
             <LinkText>Competitions</LinkText>
-          </Link>
-          <Link to="/contact/" style={{ textDecoration: "none" }}>
+          </a>
+          <a href="/contact/" style={{ textDecoration: "none" }}>
             <LinkText>Contact</LinkText>
-          </Link>
+          </a>
         </StickyBacker>
       </SuperContainer>
     );
