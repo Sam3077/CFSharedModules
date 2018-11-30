@@ -19,6 +19,7 @@ const StickyBacker = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
+  font: 112.5%/1.45em georgia, serif;
 `;
 const SocialLogo = styled.img`
   height: 40px;
@@ -54,9 +55,21 @@ const LinkText = styled.h3`
   &:hover {
     color: black;
   }
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 1.38316rem;
+  line-height: 1.1;
 `;
 const Clean = styled.h1`
   color: rgb(113, 194, 0);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 2.25rem;
+  line-height: 1.1;
 `;
 
 const CleanFareLogo = styled.img`
