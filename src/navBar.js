@@ -103,23 +103,23 @@ class NavBar extends React.Component {
           <A href="https://www.instagram.com/cleanfare" target="_blank">
             <SocialLogo src={instagram} />
           </A>
-          <a href="cleanfareapp.com" style={{ textDecoration: "none" }}>
+          <a href="https://cleanfareapp.com" style={{ textDecoration: "none" }}>
             <LinkText>Home</LinkText>
           </a>
           <a
-            href="cleanfareapp.com/businesses/"
+            href="https://cleanfareapp.com/businesses/"
             style={{ textDecoration: "none" }}
           >
             <LinkText>Businesses</LinkText>
           </a>
           <a
-            href="cleanfareapp.com/competitions/"
+            href="https://cleanfareapp.com/competitions/"
             style={{ textDecoration: "none" }}
           >
             <LinkText>Competitions</LinkText>
           </a>
           <a
-            href="cleanfareapp.com/contact/"
+            href="https://cleanfareapp.com/contact/"
             style={{ textDecoration: "none" }}
           >
             <LinkText>Contact</LinkText>
