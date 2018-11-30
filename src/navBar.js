@@ -64,6 +64,7 @@ const LinkText = styled.h3`
 `;
 const Clean = styled.h1`
   color: rgb(113, 194, 0);
+  margin-top: 5px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -86,7 +87,7 @@ class NavBar extends React.Component {
     return (
       <SuperContainer>
         <StickyBacker>
-          <a href="/" style={{ textDecoration: "none" }}>
+          <a href="cleanfareapp.com" style={{ textDecoration: "none" }}>
             <HomeLink>
               <CleanFareLogo src={icon} />
               <div style={{ height: "50px" }}>
@@ -102,16 +103,25 @@ class NavBar extends React.Component {
           <A href="https://www.instagram.com/cleanfare" target="_blank">
             <SocialLogo src={instagram} />
           </A>
-          <a href="/" style={{ textDecoration: "none" }}>
+          <a href="cleanfareapp.com" style={{ textDecoration: "none" }}>
             <LinkText>Home</LinkText>
           </a>
-          <a href="/businesses/" style={{ textDecoration: "none" }}>
+          <a
+            href="cleanfareapp.com/businesses/"
+            style={{ textDecoration: "none" }}
+          >
             <LinkText>Businesses</LinkText>
           </a>
-          <a href="/competitions/" style={{ textDecoration: "none" }}>
+          <a
+            href="cleanfareapp.com/competitions/"
+            style={{ textDecoration: "none" }}
+          >
             <LinkText>Competitions</LinkText>
           </a>
-          <a href="/contact/" style={{ textDecoration: "none" }}>
+          <a
+            href="cleanfareapp.com/contact/"
+            style={{ textDecoration: "none" }}
+          >
             <LinkText>Contact</LinkText>
           </a>
         </StickyBacker>

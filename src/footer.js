@@ -103,26 +103,38 @@ class Footer extends React.Component {
         <ColumnsWrapper>
           <Column>
             <H3>Page Navigation</H3>
-            <a href="/" style={{ textDecoration: "none" }}>
+            <a href="cleanfareapp.com/" style={{ textDecoration: "none" }}>
               <LinkStyle>Home</LinkStyle>
             </a>
-            <a href="/businesses/" style={{ textDecoration: "none" }}>
+            <a
+              href="cleanfareapp.com/businesses/"
+              style={{ textDecoration: "none" }}
+            >
               <LinkStyle>Businesses</LinkStyle>
             </a>
-            <a href="/competitions/" style={{ textDecoration: "none" }}>
+            <a
+              href="cleanfareapp.com/competitions/"
+              style={{ textDecoration: "none" }}
+            >
               <LinkStyle>Competitions</LinkStyle>
             </a>
-            <a href="/contact/" style={{ textDecoration: "none" }}>
+            <a
+              href="cleanfareapp.com/contact/"
+              style={{ textDecoration: "none" }}
+            >
               <LinkStyle>Contact</LinkStyle>
             </a>
           </Column>
           <Column>
             <H3>Business</H3>
-            <a href="/vendor-partnerships/" style={{ textDecoration: "none" }}>
+            <a
+              href="cleanfareapp.com/vendor-partnerships/"
+              style={{ textDecoration: "none" }}
+            >
               <LinkStyle>Vendor Partnerships</LinkStyle>
             </a>
             <a
-              href="/corporate-subscription/"
+              href="cleanfareapp.com/corporate-subscription/"
               style={{ textDecoration: "none" }}
             >
               <LinkStyle>Host A Competition</LinkStyle>
@@ -130,10 +142,16 @@ class Footer extends React.Component {
           </Column>
           <Column>
             <H3>Admin</H3>
-            <a href="/vendor-console/" style={{ textDecoration: "none" }}>
+            <a
+              href="cleanfareapp.com/vendor-console/"
+              style={{ textDecoration: "none" }}
+            >
               <LinkStyle>Vendor Console</LinkStyle>
             </a>
-            <a href="/competition-console/" style={{ textDecoration: "none" }}>
+            <a
+              href="cleanfareapp.com/competition-console/"
+              style={{ textDecoration: "none" }}
+            >
               <LinkStyle>Competition Console</LinkStyle>
             </a>
           </Column>
