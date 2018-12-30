@@ -12,7 +12,7 @@ const SuperContainer = styled.div`
 const ColumnsWrapper = styled.div`
   width: 100vw;
   display: flex;
-  flexdirection: row;
+  flex-direction: row;
   color: rgb(150, 150, 150);
   background: black;
   margin-bottom: 0px;
