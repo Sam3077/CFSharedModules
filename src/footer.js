@@ -16,6 +16,7 @@ const ColumnsWrapper = styled.div`
   color: rgb(150, 150, 150);
   background: black;
   margin-bottom: 0px;
+  flex-wrap: wrap;
 `;
 const CenterWrapper = styled(ColumnsWrapper)`
   align-items: center;
